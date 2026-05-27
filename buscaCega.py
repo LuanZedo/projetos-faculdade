@@ -2,7 +2,7 @@ import random
 
 def buscaCega(array):
     lugarA = random.randrange(len(array))
-    print(f"lugar atual: {lugarA}, valor: {array[lugarA]}")
+    print(f"lugar aleatório escolhido: {lugarA}, valor: {array[lugarA]}")
 
     while True:
         esquerda = array[lugarA - 1] if lugarA > 0 else float('-inf')
