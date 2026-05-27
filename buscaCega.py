@@ -20,7 +20,7 @@ def buscaCega(array):
             print(f"lugar atual: {lugarA}, valor: {array[lugarA]}")
 
  
-lugar = [7, 4, 5, 3, 3, 12, 9, 16, 44, 32, 67, 8, 15, 14, 13, 11, 22, 20, 10, 5, 1, 69, 8, 4, 3 ,2, 2, 10, 74, 13, 98]
+lugar = [7, 4, 5, 3, 3, 12, 9, 16, 44, 32, 67, 8, 15, 14, 13, 11, 22, 20, 10, 5, 1, 69, 8, 4, 3 ,2, 2, 10, 74]
 
 resultado = buscaCega(lugar)
 print(f"maior local: {resultado}")
